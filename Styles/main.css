@@ -1,0 +1,69 @@
+.nav-bar{
+    width: 100%;
+    min-height: 10dvh;
+    display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  background-color: var(--vert);
+  position: relative;
+}
+
+.nav-list{
+    display: flex;
+   justify-content: flex-end;
+    list-style-type: none;
+   
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    position: absolute;
+   top: -30px;
+   z-index: 5;
+}
+.container_background{
+    background: url(../assets/Chat_comptoir.jpg);
+    min-height: 700px;
+    min-width: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+}
+
+.container_background{
+    position: relative;
+}
+.txt_background{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-120%, -50%);
+   color: white;
+   -webkit-transform: translate(-120%, -50%);
+   -moz-transform: translate(-120%, -50%);
+   -ms-transform: translate(-120%, -50%);
+   -o-transform: translate(-120%, -50%);
+   font-size: 2rem;
+   
+}
+
+.txt_background h1{
+   text-shadow: 0 0 5px black;
+}
+
+
+
+
+
